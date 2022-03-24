@@ -1,0 +1,252 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sk-Modernist', sans-serif !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+div.form-container {
+    background-color: white;
+    border-radius: 25px;
+}
+
+div.social-media-icon {
+    color: #E5EEF4;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+div.social-media-icon:hover {
+    background-color: #E5EEF4;
+    color: #0B2753
+}
+
+h1.text-light, h2.text-light, h3.text-light {
+    color: #e5eef4 !important;
+}
+
+label.form-label {
+    color: #0B2753 !important;
+}
+
+div.pill {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    text-align: center;
+    color: #E5EEF4;
+    font-family: 'Sk-Modernist', sans-serif;
+    font-weight: 600;
+}
+
+.animate-right {
+    animation: floatRight 5s ease-in-out infinite;
+}
+
+.animate-left {
+    animation: floatLeft 5s ease-in-out infinite;
+}
+
+@keyframes floatRight {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(0.5em, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@keyframes floatLeft {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(-0.5em, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+
+@media screen and (min-width: 0px) {
+    #hexagons-background {
+        background-size: 300%;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #hexagons-background {
+        background-size: 200%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #hexagons-background {
+        background-size: cover;
+    }
+}
+
+
+#hexagons-background {
+    background-image: url('../images/hexagons-background.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+footer {
+    background-image: url('../images/client-pills-background.svg'), url('../images/background-footer.svg');
+    background-size: 51vw, cover;
+    background-repeat: no-repeat;
+    background-position: right center, top center;
+    padding-top: 11vw;
+}
+
+section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-top: 10vw;
+}
+
+#products {
+    background-image: url('../images/light-background.svg');
+}
+
+#who-trust-us {
+    background-image: url('../images/light-background.svg');
+}
+
+#clients {
+    background-image: url('../images/clients-background.svg');
+}
+
+#why {
+    background-image: url('../images/why-background.svg');
+}
+
+#about-us {
+    background-image: url('../images/about-us-background.svg');
+}
+
+#recognitions {
+    background-image: url('../images/recognitions-background.svg');
+}
+
+
+div.hexagon {
+    max-width: calc(277px);
+    height: 320px;
+    margin: 0px auto;
+    background: rgb(11, 39, 83);
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: relative;
+    z-index: 4;
+}
+
+.text-dark-blue {
+    color: #0B2753 !important;
+}
+
+p.text-dark {
+    color: #646464 !important;
+}
+
+button.category-button {
+    background-color: white;
+    border-width: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: #0B2753;
+    font-weight: 500;
+    text-align: left;
+    box-shadow: 0 1px 5px rgba(0, 1, 5, 0.16);
+    transition: all 0.5s ease !important;
+}
+
+button.category-button:hover {
+    box-shadow: 0 2px 7px rgba(0, 2, 7, 0.25);
+}
+
+img.arrow{
+    transition: all 0.5s ease !important;
+}
+
+button.category-button:hover img.arrow{
+    transform: scale(1.2);
+}
+
+div.testimonial {
+    background-image: url('../images/testimonial-background.svg');
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#client-pills {
+    background-image: url('../images/client-pills-background.svg');
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-link {
+    color: #E5EEF4;
+    border-color: #074ED0;
+    text-decoration: none !important;
+    font-weight: 500;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    transition: all 0.25s ease !important;
+}
+
+.footer-link:hover {
+    border-color: #e5eef4;
+}
+
+input.form-control, textarea.form-control {
+    border-color: #6595CC;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+div.rectangle {
+    height: 5px;
+    border-width: 0 5px;
+    border-color: #06456B;
+    border-style: solid;
+}
+
+div.vertical-rectangle{
+    width: 10px;
+}
+
+a.no-underline {
+    text-decoration: none !important;
+}
+
+a.btn-primary, button.btn-primary{
+    background-color: #074ED0 !important;
+}
