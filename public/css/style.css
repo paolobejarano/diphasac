@@ -8,6 +8,21 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 
+p.hero-subtext{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#hero {
+    background-image: url('../images/hero-white-background.svg'), url('../images/hero-blue-background.svg'), url('../images/hero-background.jpg');
+    background-size: 100%, cover, cover;
+    background-repeat: no-repeat;
+    background-position: center bottom, center center, center bottom;
+    min-height: 500px;
+    height: 90vh;
+    max-height: 800px;
+}
+
 div.form-container {
     background-color: white;
     border-radius: 25px;
@@ -87,11 +102,20 @@ div.pill {
     #hexagons-background {
         background-size: 300%;
     }
+
     #client-pills {
         background-image: url('../images/client-pills-background-vertical.svg');
         background-size: 60%;
         background-repeat: no-repeat;
         background-position: 50% 55%;
+    }
+
+    footer {
+        background-image: url('../images/client-pills-background.svg'), url('../images/background-footer.svg');
+        background-size: 100vw, cover;
+        background-repeat: no-repeat;
+        background-position: center 77%, top center;
+        padding-top: 13vw;
     }
 }
 
@@ -99,6 +123,7 @@ div.pill {
     #hexagons-background {
         background-size: 200%;
     }
+
     #client-pills {
         background-image: url('../images/client-pills-background.svg');
         background-size: 70%;
@@ -111,11 +136,20 @@ div.pill {
     #hexagons-background {
         background-size: cover;
     }
+
     #client-pills {
         background-image: url('../images/client-pills-background.svg');
         background-size: 65%;
         background-repeat: no-repeat;
         background-position: 50% 65%;
+    }
+
+    footer {
+        background-image: url('../images/client-pills-background.svg'), url('../images/background-footer.svg');
+        background-size: 52vw, cover;
+        background-repeat: no-repeat;
+        background-position: right 55%, top center;
+        padding-top: 11vw;
     }
 }
 
@@ -124,14 +158,6 @@ div.pill {
     background-image: url('../images/hexagons-background.svg');
     background-repeat: no-repeat;
     background-position: center center;
-}
-
-footer {
-    background-image: url('../images/client-pills-background.svg'), url('../images/background-footer.svg');
-    background-size: 51vw, cover;
-    background-repeat: no-repeat;
-    background-position: right center, top center;
-    padding-top: 11vw;
 }
 
 section {
@@ -151,10 +177,6 @@ section {
 
 #clients {
     background-image: url('../images/clients-background.svg');
-}
-
-#why {
-    background-image: url('../images/why-background.svg');
 }
 
 #about-us {
@@ -210,11 +232,11 @@ button.category-button:hover {
     box-shadow: 0 2px 7px rgba(0, 2, 7, 0.25);
 }
 
-img.arrow{
+img.arrow {
     transition: all 0.5s ease !important;
 }
 
-button.category-button:hover img.arrow{
+button.category-button:hover img.arrow {
     transform: scale(1.2);
 }
 
@@ -255,7 +277,7 @@ div.rectangle {
     border-style: solid;
 }
 
-div.vertical-rectangle{
+div.vertical-rectangle {
     width: 10px;
 }
 
@@ -263,6 +285,23 @@ a.no-underline {
     text-decoration: none !important;
 }
 
-a.btn-primary, button.btn-primary{
+a.btn-primary, button.btn-primary {
     background-color: #074ED0 !important;
+}
+
+a.btn-hero{
+    background-color: #e5eef4;
+    color: #074ED0;
+    width: 100%;
+    max-width: 350px;
+    font-family: 'Sk-Modernist', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+a.btn-hero:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.75);
+    color: #0B2753;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="overflow-x: hidden;">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -25,18 +25,45 @@
 
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
 
-<!-- Por qué elegir Diphasac -->
-<section id="why" class="pb-5">
+<section id="hero" class="px-3 px-sm-4 px-md-5 pb-5" style="padding-top: 0px;">
+    <div class="mx-auto d-flex flex-column h-100" style="max-width: 1000px;">
+        <div class="py-4">
+            <img src="images/diphasac-logo-blanco.svg" alt="Diphasac" style="height: 25px">
+        </div>
+        <div class="flex-grow-1 d-flex align-items-center pb-5">
+            <div class="my-auto">
+                <h1 class="text-light" style="max-width: 800px">
+                    Brindamos salud y bienestar
+                    para nuestra gente y sus clientes.
+                </h1>
+                <p class="text-light mt-5 hero-subtext" style="max-width: 650px">
+                    Diphasac se preocupa continuamente por saber
+                    el estado de salud física y emocional de su
+                    gente y sus clientes, y propicia el apoyo en su
+                    recuperación
+                </p>
+                <div class="mt-5">
+                    <a href="#why" class="btn btn-hero">
+                        Conocer más
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Por qué elegir Diphasac section -->
+<section id="why" class="pb-5" style="padding-top: 25px;">
     <h2 class="text-center text-dark-blue">
         ¿Por qué elegir Diphasac?
     </h2>
-    <div id="hexagons-background" class="px-4 px-sm-5 py-0 py-md-5 mt-4">
+    <div id="hexagons-background" class="px-3 px-sm-4 px-md-5 py-0 py-md-5 mt-4">
         <div class="row mx-auto text-light" style="max-width: 1000px">
 
             <!-- Empatía hexagon -->
-            <div class="col-9 col-sm-7 col-md-5 mx-auto">
+            <div class="col-10 col-sm-7 col-md-5 mx-auto">
                 <div class="hexagon px-3 animate__animated animate__fadeInLeft">
                     <h5 class="mb-3">Empatía</h5>
                     <p>
@@ -46,11 +73,11 @@
             </div>
 
             <!-- Whitespace -->
-            <div class="d-sm-block d-md-none col-3 col-sm-5"></div>
-            <div class="d-sm-block d-md-none col-3 col-sm-5"></div>
+            <div class="d-sm-block d-md-none col-2 col-sm-5"></div>
+            <div class="d-sm-block d-md-none col-2 col-sm-5"></div>
 
             <!-- Aliado clave hexagon -->
-            <div class="col-9 col-sm-7 col-md-5 mx-auto">
+            <div class="col-10 col-sm-7 col-md-5 mx-auto">
                 <div class="hexagon px-3 animate__animated animate__fadeInRight">
                     <h5 class="mb-3">Aliado clave</h5>
                     <p>
@@ -73,10 +100,10 @@
         Una línea diseñada solo para ti
     </p>
     <div class="container-fluid px-0" style="max-width: 1000px">
-        <div class="row mx-auto g-3">
+        <div class="row mx-auto gx-3 gy-4">
 
             <!-- Línea Neurológica Rx -->
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
                 <button type="button" class="category-button w-100"
                         data-bs-toggle="modal" data-bs-target="#category1Modal">
                     <div class="d-flex align-items-center">
@@ -89,7 +116,7 @@
             </div>
 
             <!-- Línea Urogenital Otc -->
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
                 <button type="button" class="category-button w-100"
                         data-bs-toggle="modal" data-bs-target="#category1Modal">
                     <div class="d-flex align-items-center">
@@ -102,12 +129,92 @@
             </div>
 
             <!-- Línea Anti Infecciosa Gx -->
-            <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="col-6 col-md-4 col-lg-3">
                 <button type="button" class="category-button w-100"
                         data-bs-toggle="modal" data-bs-target="#category1Modal">
                     <div class="d-flex align-items-center">
                         <div class="flex-grow-1 pe-1">
                             Línea Anti Infecciosa Gx
+                        </div>
+                        <img class="arrow" src="images/arrow.svg" alt="arrow" width="15">
+                    </div>
+                </button>
+            </div>
+
+            <!-- Línea Cuidado Personal -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <button type="button" class="category-button w-100"
+                        data-bs-toggle="modal" data-bs-target="#category1Modal">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1 pe-1">
+                            Línea Cuidado Personal
+                        </div>
+                        <img class="arrow" src="images/arrow.svg" alt="arrow" width="15">
+                    </div>
+                </button>
+            </div>
+
+            <!-- Línea Anti Inflamatoria Rx -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <button type="button" class="category-button w-100"
+                        data-bs-toggle="modal" data-bs-target="#category1Modal">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1 pe-1">
+                            Línea Anti Inflamatoria Rx
+                        </div>
+                        <img class="arrow" src="images/arrow.svg" alt="arrow" width="15">
+                    </div>
+                </button>
+            </div>
+
+            <!-- Línea Digestiva Otc -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <button type="button" class="category-button w-100"
+                        data-bs-toggle="modal" data-bs-target="#category1Modal">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1 pe-1">
+                            Línea Digestiva Otc
+                        </div>
+                        <img class="arrow" src="images/arrow.svg" alt="arrow" width="15">
+                    </div>
+                </button>
+            </div>
+
+            <!-- Línea Anti Inflamatoria Gx -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <button type="button" class="category-button w-100"
+                        data-bs-toggle="modal" data-bs-target="#category1Modal">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1 pe-1">
+                            Línea Anti Inflamatoria Gx
+                        </div>
+                        <img class="arrow" src="images/arrow.svg" alt="arrow" width="15">
+                    </div>
+                </button>
+            </div>
+
+            <!-- Línea Genérica -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <button type="button" class="category-button w-100"
+                        data-bs-toggle="modal" data-bs-target="#category1Modal">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1 pe-1">
+                            Línea Genérica
+                        </div>
+                        <img class="arrow" src="images/arrow.svg" alt="arrow" width="15">
+                    </div>
+                </button>
+            </div>
+
+            <div class="d-none d-lg-block col-3"></div>
+
+            <!-- Línea Dietética Otc -->
+            <div class="col-6 col-md-4 col-lg-3">
+                <button type="button" class="category-button w-100"
+                        data-bs-toggle="modal" data-bs-target="#category1Modal">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-grow-1 pe-1">
+                            Línea Dietética Otc
                         </div>
                         <img class="arrow" src="images/arrow.svg" alt="arrow" width="15">
                     </div>
@@ -423,8 +530,8 @@
     <h2 class="text-center text-dark-blue">
         Descube quiénes confían en nosotros
     </h2>
-    <div class="container-fluid px-0">
-        <div class="row mx-auto mt-4 gy-5 gx-4" style="max-width: 1000px;">
+    <div class="container-fluid px-0 mt-5">
+        <div class="row mx-auto gy-5 gx-4" style="max-width: 1000px;">
 
             <!-- Biofar testimonial -->
             <div class="col-12 col-sm-6 col-md-5 col-lg-4 mx-auto">
@@ -453,9 +560,9 @@
                 <div class="testimonial h-100">
                     <!-- Company name -->
                     <div class="px-5 py-5" style="height: 135px;">
-                       <h2 class="text-center mb-0">
-                           Bótica Navarra
-                       </h2>
+                        <h2 class="text-center mb-0">
+                            Bótica Navarra
+                        </h2>
                     </div>
 
                     <!-- Testimonial -->
@@ -487,79 +594,92 @@
                 </div>
             </div>
             <div class="col-6 col-sm-4 pe-0 pe-md-1 pe-lg-2 ps-4 ps-lg-5">
-                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center" style="background-color: #5597D1">
+                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #5597D1">
                     Clínicas
                 </div>
             </div>
 
             <!-- Cadenas de farmacias -->
             <div class="d-none d-sm-block col-6 col-sm-4 pe-0 pe-md-1 pe-lg-2 ps-4 ps-lg-5">
-                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center" style="background-color: #0071A2">
+                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #0071A2">
                     Cadenas de farmacias
                 </div>
             </div>
             <div class="d-block d-sm-none col-6 col-sm-4 pe-4 pe-lg-5 ps-0 ps-md-1 ps-lg-2">
-                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center" style="background-color: #0071A2">
+                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #0071A2">
                     Cadenas de farmacias
                 </div>
             </div>
 
             <div class="col-6 col-sm-4 pe-4 pe-lg-5 ps-0 ps-md-1 ps-lg-2">
-                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center" style="background-color: #0071A2">
+                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #0071A2">
                     Distribuidoras
                 </div>
             </div>
 
             <!-- Tiendas de conveniencia -->
             <div class="d-none d-sm-block col-6 col-sm-4 pe-4 pe-lg-5 ps-0 ps-md-1 ps-lg-2">
-                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center" style="background-color: #06456B">
+                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #06456B">
                     Tiendas de conveniencia
                 </div>
             </div>
             <div class="d-block d-sm-none col-6 col-sm-4 pe-0 pe-md-1 pe-lg-2 ps-4 ps-lg-5">
-                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center" style="background-color: #06456B">
+                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #06456B">
                     Tiendas de conveniencia
                 </div>
             </div>
 
             <!-- Hospitales -->
             <div class="d-none d-sm-block col-6 col-sm-4 pe-4 pe-lg-5 ps-0 ps-md-1 ps-lg-2">
-                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center" style="background-color: #5597D1">
+                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #5597D1">
                     Hospitales
                 </div>
             </div>
             <div class="d-block d-sm-none col-6 col-sm-4 pe-0 pe-md-1 pe-lg-2 ps-4 ps-lg-5">
-                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center" style="background-color: #5597D1">
+                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #5597D1">
                     Hospitales
                 </div>
             </div>
 
             <!-- Farmacias y boticas -->
             <div class="d-none d-sm-block col-6 col-sm-4 pe-0 pe-md-1 pe-lg-2 ps-4 ps-lg-5">
-                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center" style="background-color: #0B2753">
+                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #0B2753">
                     Farmacias y boticas
                 </div>
             </div>
             <div class="d-block d-sm-none col-6 col-sm-4 pe-4 pe-lg-5 ps-0 ps-md-1 ps-lg-2">
-                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center" style="background-color: #0B2753">
+                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #0B2753">
                     Farmacias y boticas
                 </div>
             </div>
 
             <!-- Empresas licitadoras -->
             <div class="d-none d-sm-block col-6 col-sm-4 pe-0 pe-md-1 pe-lg-2 ps-4 ps-lg-5">
-                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center" style="background-color: #5597D1">
+                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #5597D1">
                     Empresas licitadoras
                 </div>
             </div>
             <div class="d-block d-sm-none col-6 col-sm-4 pe-4 pe-lg-5 ps-0 ps-md-1 ps-lg-2">
-                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center" style="background-color: #5597D1">
+                <div class="pill animate-left h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #5597D1">
                     Empresas licitadoras
                 </div>
             </div>
 
             <div class="col-6 col-sm-4 pe-4 pe-lg-5 ps-0 ps-md-1 ps-lg-2 mx-auto">
-                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center" style="background-color: #0071A2">
+                <div class="pill animate-right h-100 d-flex align-items-center justify-content-center"
+                     style="background-color: #0071A2">
                     Cadenas de farmacias
                 </div>
             </div>
@@ -568,7 +688,7 @@
 </section>
 
 <!-- Footer -->
-<footer class="px-4 px-sm-5 pb-5 text-light">
+<footer class="px-3 px-sm-4 px-md-5 pb-5 text-light">
     <div class="container-fluid px-0">
         <div class="row mx-auto g-5" style="max-width: 1000px;">
             <div class="col-12 col-md-6">
@@ -666,7 +786,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-sm-10 col-md-6 mx-auto">
                 <div class="form-container p-5">
                     <form>
 
